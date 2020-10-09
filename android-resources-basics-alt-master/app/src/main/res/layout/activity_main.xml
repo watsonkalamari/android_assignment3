@@ -22,9 +22,9 @@
             style="@style/AppTheme.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onLessonLearntClicked"
-            android:text="@string/button_text"
             android:backgroundTint="@color/button_color"
+            android:checkable="true"
+            android:text="@string/button_text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/country_description_text" />
