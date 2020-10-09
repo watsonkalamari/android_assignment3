@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="24dp"
+        android:padding="@dimen/layoutPadding"
         tools:context=".MainActivity">
 
         <Button
@@ -17,9 +17,8 @@
             style="@style/AppTheme.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/buttonMarginTop"
             android:backgroundTint="@color/button_color"
-            android:checkable="true"
             android:text="@string/button_text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/country_description_text"
@@ -27,8 +26,8 @@
 
         <ImageView
             android:id="@+id/country_image"
-            android:layout_width="128dp"
-            android:layout_height="0dp"
+            android:layout_width="@dimen/outlineImageWidth"
+            android:layout_height="@dimen/outlineImageHeight"
             android:src="@drawable/ic_country_drawing"
             app:layout_constraintDimensionRatio="H, 1:1"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
@@ -39,9 +38,9 @@
         <TextView
             android:id="@+id/country_description_text"
             style="@style/AppTheme.LongText"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/longTextWidth"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
+            android:layout_marginStart="@dimen/longTextMarginStart"
             android:text="@string/country_description"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -63,21 +62,22 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="0dp"
-            android:layout_height="262dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:scaleType="fitEnd"
+            android:src="@drawable/img_bitmap"
+            android:scaleType="fitXY"
+            android:layout_width="@dimen/bitmapWidth"
+            android:layout_height="@dimen/bitmapHeight"
+            android:layout_marginTop="@dimen/bitmapMarginTop"
+            android:layout_marginEnd="@dimen/bitmapMarginEnd"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/country_title_text"
-            app:srcCompat="@drawable/img_bitmap" />
+            />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_begin="221dp" />
+            app:layout_constraintGuide_begin="@dimen/guidelineBegin" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

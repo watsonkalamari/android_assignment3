@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonMarginTop"></dimen>
+    <dimen name="outlineImageWidth">128dp</dimen>
+    <dimen name="outlineImageHeight">0dp</dimen>
+    <dimen name="longTextWidth">0dp</dimen>
+    <dimen name="longTextMarginStart">24dp</dimen>
+    <dimen name="bitmapWidth">200dp</dimen>
+    <dimen name="bitmapHeight">150dp</dimen>
+    <dimen name="bitmapMarginTop">16dp</dimen>
+    <dimen name="bitmapMarginEnd">16dp</dimen>
+    <dimen name="guidelineBegin">221dp</dimen>
+</resources>
