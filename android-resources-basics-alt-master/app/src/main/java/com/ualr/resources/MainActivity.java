@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                //Log.d(TAG,"Button has been pressed!");
+                Log.d(TAG,"Button has been pressed!");
               
             }
         });
