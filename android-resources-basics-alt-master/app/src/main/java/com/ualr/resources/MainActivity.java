@@ -26,9 +26,14 @@ public class MainActivity extends AppCompatActivity {
         Resources res=this.getResources();
 
         binding.countryDescriptionText.setText(res.getText(R.string.country_description).toString());
-        binding.lessonLearntButton.setOnClickListener(new View.OnClickListener(){}
+        binding.lessonLearntButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) {
 
 
+            }
+        });
 
     }
 
