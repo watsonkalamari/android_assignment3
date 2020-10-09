@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageHeight">0dp</dimen>
+    <dimen name="imageWidth">128dp</dimen>
+    <dimen name="imageMarginBottom">12dp</dimen>
+    <dimen name="textMarginBottom">24dp</dimen>
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="longTextSize">16sp</dimen>
+    <dimen name="longTextHeight">24dp</dimen>
+    <dimen name="buttonPadding">24dp</dimen>
+    <dimen name="windowPadding">24dp</dimen>
+</resources>
